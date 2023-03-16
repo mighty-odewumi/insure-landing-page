@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="description" content="Insure Landing Page Design from Frontend Mentor">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="keywords" content="Landing Page, html, css, responsive, Frontend Mentor, portfolio, Design, Insure">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Insure Landing Page</title>
+
+        <link rel="stylesheet" href="styles/styles.css">
+
+        <link rel="shortcut icon" href="../insure-page/images/favicon-32x32.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+
+            <div class="logo-with-ham">
+                <div class="head-logo">
+                    <a href="#home">
+                        <img src="../insure-page\images\logo.svg" alt="company's logo" class="logo">
+                    </a>
+                </div>
+    
+                <a href="javascript:void(0)" class="hamburger" >
+                    <img src=".\images\icon-hamburger.svg" alt="hamburger icon" onclick="openNav()">
+                </a>
+
+            </div>
+            
+            <nav id="navigation">
+
+                <div class="logo-with-close-icon">
+                    <a href="#home" class="logo">
+                        <img src="../insure-page\images\logo.svg" alt="company's logo">
+                    </a>
+
+                    <a href="javascript:void(0)" class="close-icon" onclick="closeNav()">
+                        <img src=".\images\icon-close.svg" alt="close icon" class="close-img">
+                    </a>
+                </div>
+
+                <ul class="header-links">
+                    <li><a href="#">How We Work</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#" class="nav-cta-btn"><button class="nav-cta cta">View Plans</button>
+                    </a></li>
+                </ul>
+
+                <img src=".\images\bg-pattern-intro-right-desktop.svg" alt="pattern" class="pattern-nav-mobile">
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+
+                <div class="hero-wrapper">
+
+                    <div class="hero-text">
+                        <div class="decor-rule-home"></div>
+
+                        <h1>
+                            Humanizing your insurance.
+                        </h1>
+        
+                        <p>
+                            Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.
+                        </p>
+        
+                        <button class="main-cta cta">View Plans</button>
+                    </div>
+
+                    <div class="family-img">
+                        <!-- <img src="../insure-page/images/image-intro-mobile.jpg" alt="members of a family holding each other" class="hero-img"> -->
+                    </div>
+
+                    <div>
+                        <img src="./images/image-intro-desktop.jpg" alt="family" class="family-img-desktop">
+                    </div>
+                </div>
+
+                <img src=".\images\bg-pattern-intro-left-mobile.svg" alt="pattern" class="pattern-left-mobile">
+    
+                
+                <img src=".\images\bg-pattern-intro-right-mobile.svg" alt="pattern" class="pattern-right-mobile">
+
+                <img src=".\images\bg-pattern-intro-right-desktop.svg" alt="patterns" class="pattern-right-desktop pattern-desktop">
+
+                <img src=".\images\bg-pattern-intro-left-desktop.svg" alt="pattern" class="pattern-left-desktop pattern-desktop">
+            </section>
+    
+            <section id="about" class="container">
+                <hr class="decor-rule">
+                <div class="decor-rule-about-desktop"></div>
+                
+                <h2>
+                    We're different
+                </h2>
+    
+                <div class="about-lists">
+                    <div class="about1">
+                        <img src="../insure-page/images/icon-snappy-process.svg" alt="image of a lightening" class="about-img">
+                        <h3>
+                            Snappy Process
+                        </h3>
+    
+                        <p class="about-text">
+                            Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.
+                        </p>
+                    </div>
+    
+                    <div class="about2">
+                        <img src="../insure-page/images/icon-affordable-prices.svg" alt="a dollar symbol" class="about-img">
+                        <h3>
+                            Affordable Prices
+                        </h3>
+    
+                        <p class="about-text">
+                            We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.
+                        </p>
+                    </div>
+    
+                    <div class="about3">
+                        <img src="../insure-page/images/icon-people-first.svg" alt="an human avatar" class="about-img">
+                        <h3>
+                            People First
+                        </h3>
+    
+                        <p class="about-text">
+                            Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="banner" class="container">
+                 <!-- <img src=".\images\bg-pattern-intro-right-desktop.svg" alt="pattern" class="pattern-right-banner"> -->
+
+                <div class="pattern-right-banner">
+                    <h3>
+                        Find out more about how we work
+                    </h3>
+        
+                    <a href="#"><button class="cta how-we-work">How We Work</button></a>
+                </div>
+
+                
+            </section>
+        </main>
+        
+        <footer>
+            <img src=".\images\bg-pattern-footer-desktop.svg" alt="pattern" class="pattern-footer-desktop pattern-desktop"> 
+    
+            <!-- <img src=".\images\bg-pattern-footer-mobile.svg" alt="pattern" class="pattern-footer-mobile"> -->
+
+                <div class="foot-logo-socs">
+                    <a href="#">
+                        <img src="../insure-page/images/logo.svg" alt="company's logo" class="foot-logo">
+                    </a>
+        
+                    <ul>
+                        <li>
+                            <a href="#"><img src="../insure-page/images/icon-facebook.svg" alt="facebook icon" class="soc"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../insure-page/images/icon-twitter.svg" alt="facebook icon" class="soc"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../insure-page/images/icon-pinterest.svg" alt="facebook icon" class="soc"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../insure-page/images/icon-instagram.svg" alt="facebook icon" class="soc"></a>
+                        </li>
+                    </ul>
+                </div>
+            
+            <div class="footer-line"></div>
+    
+            <div class="foot-links-long">
+    
+                <div class="foot-link-section1">
+                    <h4>
+                        Our company
+                    </h4>
+    
+                    <ul>
+                        <li>
+                            <a href="#">How We Work</a>
+                        </li>
+                        <li>
+                            <a href="#">Why Insure?</a>
+                        </li>
+                        <li>
+                            <a href="#">Check Price</a>
+                        </li>
+                        <li>
+                            <a href="#">Reviews</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="foot-link-section2">
+                    <h4>
+                        Help Me
+                    </h4>
+    
+                    <ul>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms Of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="foot-link-section3">
+                    <h4>
+                        Contact
+                    </h4>
+    
+                    <ul>
+                        <li>
+                            <a href="#">Sales</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                        <li>
+                            <a href="#">Live Chat</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="foot-link-section4">
+                    <h4>
+                        Others
+                    </h4>
+    
+                    <ul>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Licenses</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <p class="copyright">Made with 🤎 by <span class="author-name">Mighty Odewumi (gr1ntch)</span></p>
+
+        <script src="nav.js"></script>
+
+    </body>
+
+</html>
