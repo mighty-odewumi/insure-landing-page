@@ -46,7 +46,7 @@ main {
 .family-img {
     background: url("../images/image-intro-mobile.jpg") no-repeat;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     background-size: 100% 100%;
     position: relative;
 }

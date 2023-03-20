@@ -16,7 +16,6 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,17 +31,11 @@ Users should be able to:
 ![Mobile Screen of the Insure Landing Page](./images/localhost_7024_insure-page_(Nexus6P).png)
 ![Desktop Screen of the Insure Landing Page](./images/localhost_7024_insure-page_(NestHubMax)(1).png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Insure Github Repo](https://www.github.com/mighty-odewumi/insure-landing-page)
+- Live Site URL: [Insure Landing Page](https://mighty-odewumi.github.io/insure-landing-page)
 
 ## My process
 
@@ -57,14 +50,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
 I learnt about making a fullscreen navigation with JS.
 
 
 ### Continued development
 
-One thing I think to learn to do more is the issue of navigation. I want the navigation to able to change from mobile to desktop without any issues. Currently, my project has an issue with the mobile nav not turning into the desktop nav except on fresh reload of the page which I think is not supposed to be so. 
+One thing I think I wanna learn to do more is the issue of navigation. I want the navigation to able to change from mobile to desktop without any issues. Currently, my project has an issue with the mobile nav not turning into the desktop nav except on fresh reload of the page which I think is not supposed to be so. 
 
 
 ### Useful resources
@@ -79,7 +70,5 @@ One thing I think to learn to do more is the issue of navigation. I want the nav
 - Twitter - [@da_gr1ntch](https://www.twitter.com/da_gr1ntch)
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 A shoutout to the W3Schools website that enabled me to understand how to make a fullscreen navigation on mobile screens.
